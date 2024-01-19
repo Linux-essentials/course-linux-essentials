@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BioBoost/course_linux_essentials.git"
+    "url": "git+https://github.com/Linux-essentials/course-linux-essentials"
   },
   "keywords": [
     "linux",
@@ -21,12 +21,12 @@
     "course",
     "VIVES"
   ],
-  "author": "Nico De Witte <aka BioBoost>",
+  "author": "Nico De Witte <aka BioBoost> / Arno Schoutteten <aka madness007>",
   "license": "SEE LICENSE IN README.md",
   "bugs": {
-    "url": "https://github.com/BioBoost/course_linux_essentials/issues"
+    "url": "https://github.com/Linux-essentials/course-linux-essentials/issues"
   },
-  "homepage": "https://github.com/BioBoost/course_linux_essentials#readme",
+  "homepage": "https://github.com/Linux-essentials/course-linux-essentials#readme",
   "devDependencies": {
     "@marp-team/marp-cli": "^2.1.2",
     "@vuepress/plugin-container": "^2.0.0-beta.49",
