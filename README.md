@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/2244ece3-0382-4b74-bd02-805932f0913d/deploy-status)](https://app.netlify.com/sites/linux-essentials-v2/deploys)
 
-Welcome to the draft version of this Linux Essentials Course for VIVES University of Applied Sciences in Bruges.
+Welcome to the Linux Essentials Course for VIVES University of Applied Sciences in Bruges.
 
 Comments and additions are more than welcome.
 
@@ -14,37 +14,6 @@ Setup local dev server
 
 ```shell
 yarn run docs:dev
-```
-
-## Students
-
-You can add/pull changes from this repo using the following commands:
-
-```bash
-git remote add teacher git@github.com:BioBoost/course-linux-essentials.git
-git pull teacher master
-```
-
-Make sure to commit your local changes before doing this.
-
-## Teacher
-
-Teacher edition of this course can be found at [https://github.com/BioBoost/course-linux-essentials-teacher](https://github.com/BioBoost/course-linux-essentials-teacher).
-
-All solutions and demo's are available in `teacher.md` files inside `teacher` branches.
-
-**Important:**
-
-* Never merge `teacher` into `dev` or `master`.
-* Never push `teacher` to `origin`
-
-To make changes:
-
-```bash
-git remote add teacher git@github.com:BioBoost/course-linux-essentials-teacher.git
-git checkout teacher
-# ...
-git push teacher teacher
 ```
 
 ## License
