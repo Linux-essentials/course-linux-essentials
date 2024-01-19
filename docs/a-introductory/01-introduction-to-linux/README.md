@@ -11,6 +11,8 @@ Basically Linux is not the operating system itself but rather the heart (kernel)
 
 ## A Brief History
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ShcR4Zfc6Dw?si=GdP4_C6MIZa9m00y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Linux has come a far way since 1991 where it came to life by the hands by Linus Torvalds. To get an idea about the history, the following sections will introduce the most important milestones in its history.
 
 ### 1965 - Multics
