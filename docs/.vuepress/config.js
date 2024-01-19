@@ -64,6 +64,7 @@ module.exports = {
           '/f-networking/02-linux-networking/README.md',
           '/f-networking/03-tools-and-vpn/README.md',
           '/f-networking/04-uncomplicated-firewall/README.md',
+          '/f-networking/05-linux-server/README.md',
         ]
       },
       {

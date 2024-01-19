@@ -13,6 +13,7 @@ https://ubuntu.com/server/docs/network-configuration
 
 TODO
 
+* Creating a service
 * More on permissions
 * Logs
 * Backups
