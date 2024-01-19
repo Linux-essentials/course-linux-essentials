@@ -1,0 +1,1 @@
+We should probable refactor this a little because the alpine image often is not enough to run node apps if modules need to be compiled.

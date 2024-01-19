@@ -12,8 +12,8 @@ module.exports = {
     logo: '/images/linux.png',
     navbar: [
       { text: 'Toledo', link: 'https://toledo.kuleuven.be/portal' },
-      { text: 'Report Issue', link: 'https://github.com/BioBoost/course_linux_essentials/issues' },
-      { text: 'Organization', link: 'https://github.com/vives-linux-essentials-2022-2023' }
+      { text: 'Report Issue', link: 'https://github.com/Linux-essentials/course-linux-essentials/issues' },
+      { text: 'Organization', link: 'https://github.com/Linux-essentials' }
     ],
     sidebar: [
       {
@@ -21,7 +21,7 @@ module.exports = {
         link: '/about-this-course/README.md',
       },
       {
-        text: 'Introduction to Programming',
+        text: 'Introduction to Linux',
         children: [
           '/a-introductory/01-introduction-to-linux/README.md',
           '/a-introductory/02-start-using-linux/README.md',
@@ -81,7 +81,18 @@ module.exports = {
           // Firewall
           // Backups (include creating tar archives and such)
           // OpenVPN
+          // WireGuard
           // ...
+        ]
+      },
+      {
+        text: 'Docker',
+        children: [
+          '/i-docker/01-introduction/README.md',
+          '/i-docker/02-installing-docker/README.md',
+          '/i-docker/03-containers/README.md',
+          '/i-docker/04-running-containers/README.md',
+          '/i-docker/05-building-images/README.md',
         ]
       },
       {
@@ -101,7 +112,8 @@ module.exports = {
       {
         text: 'Online Tools',
         children: [
-          { text: '.bashrc PS1 generator', link: 'https://bashrcgenerator.com' },
+          // { text: '.bashrc PS1 generator', link: 'https://bashrcgenerator.com' },
+          { text: 'thevalleyofcode.com', link: 'https://thevalleyofcode.com/' },
           { text: 'explainshell.com', link: 'https://explainshell.com' },
           { text: 'crontab guru', link: 'https://crontab.guru' },
         ]

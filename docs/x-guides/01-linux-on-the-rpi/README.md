@@ -30,6 +30,9 @@ What's more, the Raspberry Pi  has the ability to interact with the outside worl
 | Raspberry Pi 4 | B (1GB) | Standard (85.60 × 56.5 mm) | Ethernet, Wifi, Bluetooth 5 | 40-pins | 4x Cortex-A72 1.5 GHz - ARMv8-A (64/32-bit) | 2019 |
 | Raspberry Pi 4 | B (2GB) | Standard (85.60 × 56.5 mm) | Ethernet, Wifi, Bluetooth 5 | 40-pins | 4x Cortex-A72 1.5 GHz - ARMv8-A (64/32-bit) | 2019 |
 | Raspberry Pi 4 | B (4GB) | Standard (85.60 × 56.5 mm) | Ethernet, Wifi, Bluetooth 5 | 40-pins | 4x Cortex-A72 1.5 GHz - ARMv8-A (64/32-bit) | 2019 |
+| Raspberry Pi 4 | B (8GB) | Standard (85.60 × 56.5 mm) | Ethernet, Wifi, Bluetooth 5 | 40-pins | 4x Cortex-A72 1.5 GHz - ARMv8-A (64/32-bit) | 2019 |
+| Raspberry Pi 5 | B (4GB) | Standard (85.60 × 56.5 mm) | Ethernet, Wifi, Bluetooth 5, BLE | 40-pins | 4x Cortex-A76 1.5 GHz - ARM (64-bit) | 2023 |
+| Raspberry Pi 5 | B (8GB) | Standard (85.60 × 56.5 mm) | Ethernet, Wifi, Bluetooth 5, BLE | 40-pins | 4x Cortex-A76 1.5 GHz - ARM (64-bit) | 2023 |
 
 ## Operating Systems
 
