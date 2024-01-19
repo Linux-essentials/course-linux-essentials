@@ -30,18 +30,18 @@ module.exports = {
         ]
       },
       {
-        text: 'Managing Linux Systems',
+        text: 'The Linux Filesystem',
         children: [
-          '/b-managing-linux-systems/01-package-managers/README.md',
-          '/b-managing-linux-systems/02-users-and-groups/README.md',
+          '/b-the-filesystem/01-the-filesystem/README.md',
+          '/b-the-filesystem/02-ownership-and-permissions/README.md',
+          '/b-the-filesystem/03-locating-things/README.md',
         ]
       },
       {
-        text: 'The Linux Filesystem',
+        text: 'Managing Linux Systems',
         children: [
-          '/c-the-filesystem/01-the-filesystem/README.md',
-          '/c-the-filesystem/02-ownership-and-permissions/README.md',
-          '/c-the-filesystem/03-locating-things/README.md',
+          '/c-managing-linux-systems/01-package-managers/README.md',
+          '/c-managing-linux-systems/02-users-and-groups/README.md',
         ]
       },
       {
@@ -58,11 +58,12 @@ module.exports = {
         ]
       },
       {
-        text: 'Servers and Services',
+        text: 'Networking and Servers',
         children: [
-          '/f-services/01-remote-access/README.md',
-          // '/f-services/02-docker-for-linux/README.md',
-          //  // WebServer, NAS, Samba, ...
+          '/f-networking/01-remote-access/README.md',
+          '/f-networking/02-linux-networking/README.md',
+          '/f-networking/03-tools-and-vpn/README.md',
+          '/f-networking/04-uncomplicated-firewall/README.md',
         ]
       },
       {
@@ -74,17 +75,17 @@ module.exports = {
           '/g-scripting/04-backups/README.md',
         ]
       },
-      {
-        text: 'Security and Protection',
-        children: [
-          '/h-security-and-protection/01-uncomplicated-firewall/README.md',
-          // Firewall
-          // Backups (include creating tar archives and such)
-          // OpenVPN
-          // WireGuard
-          // ...
-        ]
-      },
+      // {
+      //   text: 'Security and Protection',
+      //   children: [
+      //     '/h-security-and-protection/01-uncomplicated-firewall/README.md',
+      //     // Firewall
+      //     // Backups (include creating tar archives and such)
+      //     // OpenVPN
+      //     // WireGuard
+      //     // ...
+      //   ]
+      // },
       {
         text: 'Docker',
         children: [
