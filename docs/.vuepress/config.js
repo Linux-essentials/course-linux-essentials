@@ -95,6 +95,7 @@ module.exports = {
           '/i-docker/03-containers/README.md',
           '/i-docker/04-running-containers/README.md',
           '/i-docker/05-building-images/README.md',
+          '/i-docker/06-docker-compose/README.md',
         ]
       },
       {

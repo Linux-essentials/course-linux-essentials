@@ -301,7 +301,7 @@ Note that the order of the instructions does play a significant role when creati
 The table below lists the most common used instructions for a Dockerfile.
 
 | Instruction | Details |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- |
 | `FROM` | When creating a Dockerfile it should always specify **on which image it should be based**. This is achieved using the `FROM` instruction. A common source of images to base your image on is Docker Hub. Specify a specific tag using a colon `:<version_number>`use the latest image using `:latest` |
 | `WORKDIR` | Sets the **working directory** for instructions that follow. If the directory does not exist yet, it will be created. |
 | `RUN` | Allows the **execution of commands in the shell**. This is for example used to install applications, libraries or other dependencies. Each `RUN` instruction will execute any commands in a new layer on top of the current image and commit the results |
