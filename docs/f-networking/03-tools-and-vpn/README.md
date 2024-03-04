@@ -118,6 +118,8 @@ Exclude files/folders from the output
 du --exclude="*.zip*" -hs
 ```
 
+::: disk free also known as `df`, which is a powerful utility that provides valuable information on disk space utilization. The df command displays information about file system disk space usage on the mounted file system. This command retrieves the information from `/proc/mounts` or `/etc/mtab`. By default, df command shows disk space in Kilobytes (KB) and uses the SI unit suffixes (e.g, M for megabytes, G for gigabytes) for clarity. :::
+
 ### ncdu
 
 The ncdu command provides a fast and very easy-to-use way to see how you are using disk space on your Linux system. It allows you to navigate through your directories and files and review what file content is using up the most disk space.
