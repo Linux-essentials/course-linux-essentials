@@ -18,9 +18,13 @@ sudo tcpdump -i eth0 -nn -s0 -v port 80
 ```
 
 -i : Select interface that the capture is to take place on, this will often be an ethernet card or wireless adapter but could also be a vlan or something more unusual. Not always required if there is only one network adapter.
+
 -nn : A single (n) will not resolve hostnames. A double (nn) will not resolve hostnames or ports. This is handy for not only viewing the IP / port numbers but also when capturing a large amount of data, as the name resolution will slow down the capture.
+
 -s0 : Snap length, is the size of the packet to capture. -s0 will set the size to unlimited - use this if you want to capture all the traffic. Needed if you want to pull binaries / files from network traffic.
+
 -v : Verbose, using (-v) or (-vv) increases the amount of detail shown in the output, often showing more protocol specific information.
+
 port 80 : this is a common port filter to capture only traffic on port 80, that is of course usually HTTP.
 
 ### Display ASCII text
@@ -64,7 +68,8 @@ Have you ever experienced slow application performance on a server and wondered 
 
 ### top
 
-`top` command is used to show the Linux processes. It provides a dynamic real-time view of the running system. Usually, this command shows the summary information of the system and the list of processes or threads which are currently managed by the Linux Kernel. As soon as you will run this command it will open an interactive command mode where the top half portion will contain the statistics of processes and resource usage. And Lower half contains a list of the currently running processes. Pressing q will simply exit the command mode.
+`top` command is used to show the Linux processes. It provides a dynamic real-time view of the running system. Usually, this command shows the summary information of the system and the list of processes or threads which are currently managed by the Linux Kernel. 
+As soon as you will run this command it will open an interactive command mode where the top half portion will contain the statistics of processes and resource usage. And Lower half contains a list of the currently running processes. Pressing q will simply exit the command mode.
 
 To use top, simply enter `top` in the command line.
 
@@ -80,7 +85,8 @@ sudo apt install btop
 
 ### du
 
-`du` stands for `Disk Usage` and is a console command that displays the disk space used by files and directories. When you run the command in the console, it shows you the size of files and directories in bytes. This is especially useful if you want to determine which files and directories take up the most space on your system.
+`du` stands for `Disk Usage` and is a console command that displays the disk space used by files and directories. When you run the command in the console, it shows you the size of files and directories in bytes. 
+This is especially useful if you want to determine which files and directories take up the most space on your system.
 
 Showing the directories and files with their size by using `-hs` option. This output gives us in a human readable format (h) the summary (s) size of every folder/file 
 
@@ -118,7 +124,8 @@ Exclude files/folders from the output
 du --exclude="*.zip*" -hs
 ```
 
-::: disk free also known as `df`, which is a powerful utility that provides valuable information on disk space utilization. The df command displays information about file system disk space usage on the mounted file system. This command retrieves the information from `/proc/mounts` or `/etc/mtab`. By default, df command shows disk space in Kilobytes (KB) and uses the SI unit suffixes (e.g, M for megabytes, G for gigabytes) for clarity. :::
+::: disk free also known as `df`, which is a powerful utility that provides valuable information on disk space utilization. The df command displays information about file system disk space usage on the mounted file system. 
+This command retrieves the information from `/proc/mounts` or `/etc/mtab`. By default, df command shows disk space in Kilobytes (KB) and uses the SI unit suffixes (e.g, M for megabytes, G for gigabytes) for clarity. :::
 
 ### ncdu
 
@@ -156,7 +163,8 @@ wget http://www.example.com/filename.txt -o /path/filename.txt
 
 ### curl
 
-curl is a command-line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP, or FILE). curl is powered by Libcurl. This tool is preferred for automation since it is designed to work without user interaction. curl can transfer multiple files at once. 
+curl is a command-line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP, or FILE). curl is powered by Libcurl. 
+This tool is preferred for automation since it is designed to work without user interaction. curl can transfer multiple files at once. 
 
 The most basic use of curl is typing the command followed by the URL.  
 
