@@ -463,7 +463,7 @@ This construct is less used but can sometimes be helpful.
 
 #### Testing
 
-The test condition is most often used for the if statement. While there are two syntactically different forms, both work exactly the same.
+The test condition is often used for the if statement. While there are two syntactically different forms, both work exactly the same.
 
 ```bash
 #!/usr/bin/env bash
