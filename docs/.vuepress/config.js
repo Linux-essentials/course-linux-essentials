@@ -72,7 +72,7 @@ module.exports = {
         children: [
           '/g-scripting/01-basic-shell-scripting/README.md',
           '/g-scripting/02-cron-jobs/README.md',
-          // /g-scripting/03-systemd
+          '/g-scripting/03-systemd/README.md',
           '/g-scripting/04-backups/README.md',
         ]
       },
