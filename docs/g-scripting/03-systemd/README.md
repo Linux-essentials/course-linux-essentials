@@ -83,7 +83,7 @@ Syntax:
 sudo systemctl disable name_service.service
 ```
 
-##More process management commands
+## More process management commands
 There are different process commands in Linux mainly 5 commands are widely used which are `ps`, `wait`, `sleep`, `kill`, `exit`.
 
 `ps` is an acronym for process status. It displays information about the active processes. 
@@ -92,7 +92,7 @@ There are different process commands in Linux mainly 5 commands are widely used 
 `kill` is used to terminate a background running process. It sends a terminate signal to the process and then processes halts. It takes process ID as an argument. 
 `exit` command is used to exit from the current shell environment.
 
-##Shutdown
+## Shutdown
 
 The `shutdown` command in Linux is used to shutdown the system in a safe way. You can shutdown the machine immediately, or schedule a shutdown using 24 hour format.It brings the system down in a secure way. When the shutdown is initiated, all logged-in users and processes are notified that the system is going down, and no further logins are allowed.
 Only root user can execute shutdown command.
