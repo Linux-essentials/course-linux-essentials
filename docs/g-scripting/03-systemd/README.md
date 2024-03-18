@@ -35,6 +35,7 @@ Systemctl is a controller or utility of Systemd(is an init system with compost f
 ### Common commands with systemctl
 
 To list available systems units or to List all Services in Linux we use the following command:
+
 Syntax:
 
 ```bash
@@ -42,6 +43,7 @@ systemctl list-unit-files --type service -all
 ```
 
 The command start serves for starting (activate) one or more units specified on the command line.
+
 Syntax:
 
 ```bash
@@ -49,6 +51,7 @@ sudo systemctl start service.service
 ```
 
 The command stop serves for stopping the service or (deactivate) one or more units specified on the command line.
+
 Syntax:
 
 ```bash
@@ -56,6 +59,7 @@ sudo systemctl stop service.service
 ```
 
 The command status serves to check the status of the service. Show terse runtime status information about one or more units, followed by the most recent log data from the journal. If no units are specified, show system status.
+
 Syntax:
 
 ```bash
@@ -63,6 +67,7 @@ sudo systemctl status service.service
 ```
 
 The command restart serves for restarting the service in execution. Stop and then start one or more units specified on the command line. If the units are not running yet, they will be started.
+
 Syntax:
 
 ```bash
@@ -70,6 +75,7 @@ sudo systemctl restart service.service
 ```
 
 The enable command serves for executing the service since the initialization if consists of one or more units or unit instances. This will create a set of symlinks, as encoded in the [Install] sections of the indicated unit files. the system manager configuration is reloaded (in a way equivalent to daemon-reload), in order to ensure the changes are taken into account immediately. 
+
 Syntax:
 
 ```bash
@@ -77,6 +83,7 @@ sudo systemctl enable name_service.service
 ```
 
 The disable command serves for withdrawing the service since the initialization of one or more units. This removes all symlinks to the unit files backing the specified units from the unit configuration directory and hence undoes any changes made by enabling or link.
+
 Syntax:
 
 ```bash
@@ -100,6 +107,7 @@ There are different process commands in Linux mainly 5 commands are widely used 
 ## Shutdown
 
 The `shutdown` command in Linux is used to shutdown the system in a safe way. You can shutdown the machine immediately, or schedule a shutdown using 24 hour format.It brings the system down in a secure way. When the shutdown is initiated, all logged-in users and processes are notified that the system is going down, and no further logins are allowed.
+
 Only root user can execute shutdown command.
 
 Syntax of shutdown Command
@@ -126,11 +134,13 @@ Options
 
 
 How to use shutdown
+
 In it’s simplest form when used without any argument, shutdown will power off the machine.
 ```bash
 sudo shutdown
 ```
 How to shutdown the system at a specified time
+
 The time argument can have two different formats. It can be an absolute time in the format hh:mm and relative time in the format +m where m is the number of minutes from now.
 
 The following example will schedule a system shutdown at 05 A.M:
@@ -142,6 +152,7 @@ The following example will schedule a system shutdown in 20 minutes from now:
 sudo shutdown +20
 ```
 How to shutdown the system immediately
+
 To shutdown your system immediately you can use +0 or its alias now:
 ```bash
 sudo shutdown now
