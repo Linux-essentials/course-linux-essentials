@@ -1,9 +1,5 @@
 # Backups
 
-::: warning Early draft
-Note that this is a very early draft and may contain erroneous data or unfinished sections. Comments, issues and tips are welcomed.
-:::
-
 Backup are essential when working with all kinds of devices. While as a developer you work with tools like git that allow you to store code in the cloud, these services should under no circumstance be considered backups.
 
 ## Archiving
