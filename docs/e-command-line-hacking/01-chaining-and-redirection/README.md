@@ -1,7 +1,5 @@
 # Command Chaining, Redirection and Pipelines
 
-Very Early Draft
-
 <!-- Also read this: https://www.gnu.org/software/bash/manual/html_node/Redirections.html -->
 
 ## Redirection
