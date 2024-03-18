@@ -4,4 +4,4 @@
 
 #### Made by the Nico De Witte with ❤️
 
-##### Maintained by Arno Schoutteten
+##### Maintained by Arno Schoutteten and Stijn Decat
