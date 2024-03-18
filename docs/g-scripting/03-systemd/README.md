@@ -87,10 +87,15 @@ sudo systemctl disable name_service.service
 There are different process commands in Linux mainly 5 commands are widely used which are `ps`, `wait`, `sleep`, `kill`, `exit`.
 
 `ps` is an acronym for process status. It displays information about the active processes. 
+
 `wait` command will suspend execution of the calling thread until one of its children terminate. It will return the exit status of that command. 
+
 `sleep` command is used to delay the execution of the next command for a given number of seconds, hours, minutes, days. 
+
 `kill` is used to terminate a background running process. It sends a terminate signal to the process and then processes halts. It takes process ID as an argument. 
+
 `exit` command is used to exit from the current shell environment.
+
 
 ## Shutdown
 
@@ -104,13 +109,21 @@ shutdown [OPTIONS] [TIME] [MESSAGE]
 ```
 
 options – Shutdown options such as halt, power-off (the default option) or reboot the system.
+
 time – The time argument specifies when to perform the shutdown process.
+
 message – The message argument specifies a message which will be broadcast to all users.
+
 Options
+
 -r : Requests that the system be rebooted after it has been brought down.
+
 -h : Requests that the system be either halted or powered off after it has been brought down, with the choice as to which left up to the system.
+
 -c : Cancels a running shutdown. TIME is not specified with this option, the first argument is MESSAGE.
+
 -k : Only send out the warning messages and disable logins, do not actually bring the system down.
+
 
 How to use shutdown
 In it’s simplest form when used without any argument, shutdown will power off the machine.
